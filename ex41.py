@@ -59,8 +59,8 @@ def convert(snippet, phrase):
             result = result.replace("@@@", word, 1)
 
         results.append(result)
-
-    return results
+    
+    return results[0],results[1]
 
 # keep going until they hit CTRL-D
 try:
