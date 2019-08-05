@@ -8,7 +8,7 @@ def scan(string):
     directions = ["north","south","east","west"]
     verbs = ["go","kill","eat"]
     stops = ["the","in","of"]
-    nouns = ["bear","princess"]
+    nouns = ["bear","princess","honey"]
     
     for word in words:
         try:
